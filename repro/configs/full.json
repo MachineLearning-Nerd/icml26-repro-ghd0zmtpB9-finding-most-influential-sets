@@ -1,0 +1,11 @@
+{
+  "case_repetitions": 4,
+  "max_case_n": 18,
+  "max_case_k": 5,
+  "scaling_n": [1000, 10000, 100000, 1000000],
+  "scaling_k": 100,
+  "separation_repetitions": 25,
+  "separation_k": 4,
+  "separation_alphas": [0.0, 1e-08, 1e-06, 0.0001, 0.001, 0.01]
+}
+

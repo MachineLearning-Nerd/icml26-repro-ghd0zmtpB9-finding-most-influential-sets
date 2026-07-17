@@ -1,0 +1,80 @@
+{
+  "paper": "ghd0zmtpB9",
+  "official_commit": "12fdd4775a3df694926bfabe45421aebaa281eb1",
+  "claim1_exact_global_mis": {
+    "cases": 120,
+    "max_official_vs_official_enumeration": 0.0,
+    "max_official_vs_independent_exhaustive": 1.1546319456101628e-12,
+    "max_official_vs_independent_linear_topk": 1.1546319456101628e-12,
+    "nonoptimal_cases": 0,
+    "max_dinkelbach_iterations": 4,
+    "max_linear_topk_iterations": 4
+  },
+  "claim2_finite_topk_algorithm": {
+    "official_scaling": [
+      {
+        "n": 1000,
+        "k": 100,
+        "seconds": 0.000800000000000089,
+        "iterations": 3
+      },
+      {
+        "n": 10000,
+        "k": 100,
+        "seconds": 0.000999999999999979,
+        "iterations": 3
+      },
+      {
+        "n": 100000,
+        "k": 100,
+        "seconds": 0.00619999999999994,
+        "iterations": 2
+      },
+      {
+        "n": 1000000,
+        "k": 100,
+        "seconds": 0.0618,
+        "iterations": 2
+      }
+    ],
+    "independent_expected_linear_topk_scaling": [
+      {
+        "n": 10000,
+        "seconds": 0.0007900139316916466,
+        "iterations": 3
+      },
+      {
+        "n": 100000,
+        "seconds": 0.0067569168750196695,
+        "iterations": 2
+      },
+      {
+        "n": 1000000,
+        "seconds": 0.06837737280875444,
+        "iterations": 2
+      }
+    ],
+    "largest_n": 1000000,
+    "max_iterations": 3,
+    "real_data": {
+      "n": 1599,
+      "k": 25,
+      "iterations": 2
+    }
+  },
+  "claim3_oracle_and_separation": {
+    "trials_per_alpha": 25,
+    "exact_recovery_rate": {
+      "0.0": 1.0,
+      "1e-08": 1.0,
+      "1e-06": 1.0,
+      "0.0001": 1.0,
+      "0.001": 0.96,
+      "0.01": 0.96
+    },
+    "minimum_positive_separation_gap": 0.000217136503492532
+  },
+  "negative_controls": {
+    "nonpositive_denominator": "REJECTED_NONPOSITIVE_DENOMINATOR"
+  }
+}
